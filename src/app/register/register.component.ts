@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
   }
 
   registerData() {
-    // console.log('register data emal');
+     // console.log('register data emal');
     const user = {
       name: this.name,
       userName: this.username,
@@ -31,7 +31,7 @@ export class RegisterComponent implements OnInit {
     };
 
    // console.log(user);
-   this.authService.registerUser(user);
+    this.authService.registerUser(user);
   }
 
 }
